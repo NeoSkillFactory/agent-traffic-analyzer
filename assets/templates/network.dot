@@ -1,0 +1,10 @@
+digraph AgentNetwork {
+  label="Agent Communication Network";
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fillcolor="#e8f0ff", fontname="Helvetica"];
+  edge [fontname="Helvetica", fontsize=10, color="#333333"];
+
+{{NODES}}
+
+{{EDGES}}
+}

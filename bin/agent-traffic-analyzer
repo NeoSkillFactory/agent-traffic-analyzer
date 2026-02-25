@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+'use strict';
+
+const { createProgram } = require('../src/cli');
+
+const program = createProgram();
+
+program.parseAsync(process.argv).catch((err) => {
+  console.error(`Error: ${err.message}`);
+  process.exit(1);
+});
