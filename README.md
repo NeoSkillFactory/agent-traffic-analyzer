@@ -2,26 +2,48 @@
 
 ![Audit](https://img.shields.io/badge/audit%3A%20PASS-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-orange)
 
-> A skill that analyzes and visualizes the communication patterns between multiple OpenClaw agents, highlighting bottlenecks and suggesting optimization strategie
+> Analyzes and visualizes communication patterns between OpenClaw agents to identify bottlenecks and suggest optimization strategies.
 
-I need to see where we left off to continue. Let me check the current workspace state and any recent work.
+## Features
 
+- Extract and analyze message flow patterns between OpenClaw agents
+- Generate visualizations of communication networks and traffic volumes
+- Identify bottlenecks and inefficiencies in agent interactions
+- Suggest optimization strategies for improved agent coordination
+- Export analysis reports in multiple formats (JSON, CSV, DOT)
+- Compare historical communication patterns over time
+
+## Usage
+
+```bash
+# Analyze a communication log file
+agent-traffic-analyzer analyze <logfile.json>
+
+# Generate a network visualization
+agent-traffic-analyzer visualize <logfile.json> --format dot
+
+# Generate a full report
+agent-traffic-analyzer report <logfile.json> --output report.json
+
+# Show summary statistics
+agent-traffic-analyzer summary <logfile.json>
+
+# Find bottlenecks
+agent-traffic-analyzer bottlenecks <logfile.json>
+```
+
+## Quick Start
 ## Installation
 
 ```bash
 npm install
 ```
 
-## OpenClaw Marketplace
+## GitHub
 
-This skill is available on [ClawHub](https://clawhub.ai) — the OpenClaw skill marketplace.
-Install it in any OpenClaw agent workspace with:
+Source code: [github.com/NeoSkillFactory/agent-traffic-analyzer](https://github.com/NeoSkillFactory/agent-traffic-analyzer)
 
-```bash
-clawhub install agent-traffic-analyzer
-```
-
-**Recommended price when commercial:** $29 USD
+**Price suggestion:** $29 USD
 
 ## License
 
