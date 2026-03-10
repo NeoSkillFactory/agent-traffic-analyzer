@@ -43,8 +43,6 @@ npm install
 
 Source code: [github.com/NeoSkillFactory/agent-traffic-analyzer](https://github.com/NeoSkillFactory/agent-traffic-analyzer)
 
-**Price suggestion:** $29 USD
-
 ## License
 
 MIT © NeoSkillFactory
